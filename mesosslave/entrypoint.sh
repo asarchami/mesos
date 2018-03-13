@@ -11,4 +11,4 @@ do
 done
 zk_masters=$(echo "$zk_masters" | rev | cut -c2- | rev)"/mesos/zk"
 echo $zk_masters > /etc/mesos/zk
-cat /etc/mesos/zk
+# cat /etc/mesos/zk
